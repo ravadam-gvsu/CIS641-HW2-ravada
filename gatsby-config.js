@@ -5,7 +5,7 @@ module.exports = {
     title: 'Mounika Ravada',
     description:
       'Mounika Ravada is a software engineer who specializes in building exceptional digital experiences.',
-    siteUrl: 'https://github.com/ravadam-gvsu/', // No trailing slash allowed!
+    siteUrl: 'https://ravadam-gvsu.github.io/CIS641-HW2-ravada/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [

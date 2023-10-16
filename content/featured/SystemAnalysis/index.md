@@ -2,6 +2,7 @@
 date: '1'
 title: 'Retro Board Application'
 cover: './rettro.png'
+external: 'https://manohargaddam.github.io/GVSU-CIS641-SOPHOS/'
 tech:
   - Angular
   - Node
@@ -14,8 +15,10 @@ tech:
 
 <u><b>Key Features</b></u>
 
-<u>Retrospective Board Creation:</u> The core functionality of the application revolves around the creation and management of retrospective boards. It provides teams with an intuitive interface for inputting feedback, categorizing issues, and voting collaboratively on the most critical matters.
+<u>Retrospective Board Creation:</u> The app focuses on creating and overseeing retrospective boards, offering teams an intuitive interface for feedback and issue categorization.
 
-<u>User-Friendly Interface:</u> The application is designed to be user-friendly and easy to navigate, ensuring that team members can quickly adapt to the digital solution, ultimately enhancing the efficiency and effectiveness of the retrospective process.
+<u>User-Friendly Interface:</u> The app's user-friendly design enhances team efficiency and effectiveness in adapting to the digital solution for retrospectives.
 
 <u><b>The Bigger Picture:</b></u> My work on this project is a testament to my dedication to learning and applying valuable skills from the system analysis and design course. I understand that this project may seem academic in nature, but it represents my commitment to continuous improvement and my ability to address real-world issues with creative and efficient solutions.
+
+Click <a href="https://manohargaddam.github.io/GVSU-CIS641-SOPHOS/" target="_blank">here</a> for more details!

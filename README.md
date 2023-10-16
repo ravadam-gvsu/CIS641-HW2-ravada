@@ -1,27 +1,17 @@
-<div align="center">
-  <!-- <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" /> -->
-</div>
 <h1 align="center">
-  https://github.com/ravadam-gvsu/ - v1
+  https://ravadam-gvsu.github.io/CIS641-HW2-ravada/ - v1
 </h1>
 <p align="center">
-  The second iteration of <a href="https://github.com/ravadam-gvsu/" target="_blank">https://github.com/ravadam-gvsu/</a> built and hosted with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>
+  <a href="https://github.com/ravadam-gvsu/" target="_blank">https://ravadam-gvsu.github.io/CIS641-HW2-ravada/</a> built and hosted with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>
 </p>
 <p align="center">
   Previous versions:
   <a href="https://github.com/ravadam-gvsu/" target="_blank">v1</a>
 </p>
-<!-- <p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
-</p> -->
 
-<!-- ![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png) -->
+<!-- ## 🚨 Forking this repo (please read!)
 
-## 🚨 Forking this repo (please read!)
-
-This repositoty is fully Open Source, Feel free to clone this, yes you heard it right - you can fork this repo. Before that please give me a star, fork it and customized as per your wish. If you face any dificulty you can connect with me <a href="mailto:ravadam@mail.gvsu.edu">ravadam@mail.gvsu.edu</a>.
+This repositoty is fully Open Source, Feel free to clone this, yes you heard it right - you can fork this repo. Before that please give me a star, fork it and customized as per your wish. If you face any dificulty you can connect with me <a href="mailto:ravadam@mail.gvsu.edu">ravadam@mail.gvsu.edu</a>. -->
 
 <br/>
 

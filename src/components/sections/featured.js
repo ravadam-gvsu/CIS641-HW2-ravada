@@ -72,8 +72,10 @@ const StyledProject = styled.li`
       }
     }
     .project-links {
-      justify-content: flex-end;
-      margin-left: 0;
+      // justify-content: flex-end;
+      // margin-left: 0;
+      justify-content: left;
+      align-items: flex-start;
       margin-right: -10px;
 
       @media (max-width: 768px) {
@@ -363,24 +365,10 @@ const Featured = () => {
                   <div>
                     <p className="project-overline">Academic Project - Master's</p>
 
-                    <h3 className="project-title">
-                      <a href={external}>{title}</a>
-                    </h3>
-
-                    <div
-                      className="project-description"
-                      dangerouslySetInnerHTML={{ __html: html }}
-                    />
-
-                    {tech.length && (
-                      <ul className="project-tech-list">
-                        {tech.map((tech, i) => (
-                          <li key={i}>{tech}</li>
-                        ))}
-                      </ul>
-                    )}
-
                     <div className="project-links">
+                      <h3 className="project-title">
+                        <a href={external}>{title}</a>
+                      </h3>
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
                           Learn More
@@ -397,6 +385,19 @@ const Featured = () => {
                         </a>
                       )}
                     </div>
+
+                    <div
+                      className="project-description"
+                      dangerouslySetInnerHTML={{ __html: html }}
+                    />
+
+                    {tech.length && (
+                      <ul className="project-tech-list">
+                        {tech.map((tech, i) => (
+                          <li key={i}>{tech}</li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
 
