@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import { CSSTransition } from "react-transition-group";
-import styled from "styled-components";
-import { srConfig } from "@config";
-import { KEY_CODES } from "@utils";
-import sr from "@utils/sr";
-import { usePrefersReducedMotion } from "@hooks";
+import React, { useState, useEffect, useRef } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import { CSSTransition } from 'react-transition-group';
+import styled from 'styled-components';
+import { srConfig } from '@config';
+import { KEY_CODES } from '@utils';
+import sr from '@utils/sr';
+import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
   max-width: 700px;
@@ -75,7 +75,7 @@ const StyledTabButton = styled.button`
   padding: 0 20px 2px;
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
-  color: ${({ isActive }) => (isActive ? "var(--green)" : "var(--slate)")};
+  color: ${({ isActive }) => (isActive ? 'var(--lightpink)' : 'var(--slate)')};
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   text-align: left;
@@ -107,7 +107,7 @@ const StyledHighlight = styled.div`
   width: 2px;
   height: var(--tab-height);
   border-radius: var(--border-radius);
-  background: var(--green);
+  background: var(--lightpink);
   transform: translateY(
     calc(${({ activeTabId }) => activeTabId} * var(--tab-height))
   );
@@ -156,7 +156,7 @@ const StyledTabPanel = styled.div`
     line-height: 1.3;
 
     .company {
-      color: var(--green);
+      color: var(--lightpink);
     }
   }
 
@@ -226,7 +226,7 @@ const Jobs = () => {
   useEffect(() => focusTab(), [tabFocus]);
 
   // Focus on tabs when using up & down arrow keys
-  const onKeyDown = (e) => {
+  const onKeyDown = e => {
     switch (e.key) {
       case KEY_CODES.ARROW_UP: {
         e.preventDefault();
@@ -254,7 +254,7 @@ const Jobs = () => {
         <StyledTabList
           role="tablist"
           aria-label="Job tabs"
-          onKeyDown={(e) => onKeyDown(e)}
+          onKeyDown={e => onKeyDown(e)}
         >
           {jobsData &&
             jobsData.map(({ node }, i) => {
@@ -264,10 +264,10 @@ const Jobs = () => {
                   key={i}
                   isActive={activeTabId === i}
                   onClick={() => setActiveTabId(i)}
-                  ref={(el) => (tabs.current[i] = el)}
+                  ref={el => (tabs.current[i] = el)}
                   id={`tab-${i}`}
                   role="tab"
-                  tabIndex={activeTabId === i ? "0" : "-1"}
+                  tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}
                 >
@@ -294,7 +294,7 @@ const Jobs = () => {
                   <StyledTabPanel
                     id={`panel-${i}`}
                     role="tabpanel"
-                    tabIndex={activeTabId === i ? "0" : "-1"}
+                    tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}

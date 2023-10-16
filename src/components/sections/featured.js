@@ -119,7 +119,7 @@ const StyledProject = styled.li`
 
   .project-overline {
     margin: 10px 0;
-    color: var(--green);
+    color: var(--lightpink);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
@@ -216,7 +216,7 @@ const StyledProject = styled.li`
     position: relative;
     margin-top: 10px;
     margin-left: -10px;
-    color: var(--lightest-slate);
+    color: var(--lightpink);
 
     a {
       ${({ theme }) => theme.mixins.flexCenter};
@@ -258,7 +258,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: var(--lightpink);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
